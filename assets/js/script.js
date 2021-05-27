@@ -5,8 +5,8 @@ sobre.push(passatempo); */
 
 function sobre(){
     setTimeout(aparecerTitulo, 700);
-    setTimeout(aparecerEstudo, 1400);
-    setTimeout(aparecerPassaTempo, 2100);
+    setTimeout(aparecerEstudo, 1800);
+    setTimeout(aparecerPassaTempo, 6500);
 }
 
 function aparecerTitulo(){

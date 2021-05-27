@@ -18,3 +18,25 @@ height: 50px;
 .dn{
     display: none;
 }
+
+.meu-container{
+    display: flex;
+}
+
+p .fa{
+    font-size: 45px;
+    color: white;
+    padding: 10px;
+}
+
+.fa-linkedin-square:hover{
+    color: #0072b1;
+}
+
+.fa-github:hover{
+    color: rgb(75, 17, 168);
+}
+
+.link-social:hover{
+    text-decoration: none;
+}

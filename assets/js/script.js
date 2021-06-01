@@ -3,6 +3,18 @@ sobre.push(titulo);
 sobre.push(estudo);
 sobre.push(passatempo); */
 
+let titulo = window.document.querySelector('h1');
+let resumo = window.document.querySelector('#resumo');
+let passatempo = window.document.querySelector('#passatempo');
+
+function reloadSobre(){
+    titulo.style.display = 'none';
+    resumo.style.display = 'none';
+    passatempo.style.display = 'none';
+
+    sobre();
+}
+
 function sobre(){
     setTimeout(aparecerTitulo, 700);
     setTimeout(aparecerEstudo, 1800);
@@ -10,16 +22,13 @@ function sobre(){
 }
 
 function aparecerTitulo(){
-    let titulo = window.document.querySelector('h1');
     titulo.style.display = 'block';
 }
 
 function aparecerEstudo(){
-    let resumo = window.document.querySelector('#resumo');
     resumo.style.display = 'block';
 }
 
 function aparecerPassaTempo(){
-    let passatempo = window.document.querySelector('#passatempo');
     passatempo.style.display = 'block';
 }

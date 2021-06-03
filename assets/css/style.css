@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+.bg-cinza{
+    background-color: #f6f6f6;
+}
+
 .o-5{
     opacity: .5;
 }
